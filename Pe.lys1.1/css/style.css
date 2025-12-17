@@ -1,0 +1,164 @@
+body {
+   font-family: Helvetica, sans-serif;
+   background-color: #222;
+   margin: auto;
+
+}
+
+
+.seccion1{
+    float: left;
+    width: 100%;
+    margin-top: -20px;
+    background-image: url(../img/quasinegre.png);
+    background-repeat: none;
+    position: relative;
+    position: fixed;
+    z-index: 11237189371289317983712983;
+
+}
+
+        .logo {
+            width: 38px;
+            height: 30px;
+            background-image: url(../img/logo.png);
+            float: left;
+            margin: 5px 20px
+        }
+
+        li{
+            list-style: none;
+            display: inline-block;
+            color: #CCC;
+        }
+
+        a{
+            text-decoration: none;
+            color: #CCC;
+        }
+
+        a:hover{
+            color: white;
+        }
+
+
+        .accesos {
+            float: left;
+            margin-left: 10px;
+        }
+
+        .redes{
+            float: right;
+            margin-right: 20px;
+        }
+
+.seccion2 {
+    margin: 20px;
+    padding-top: 20px;
+}
+
+        .grup1 {
+            float: left;
+            width: 100%;
+        }
+
+        .grup2 {
+            float: left;
+            width: 100%;
+        }
+
+        .grup3 {
+            float: left;
+            width: 100%;
+        }
+
+        .grup4 {
+            float: left;
+            width: 100%;
+        }
+
+        .grup5 {
+            float: left;
+            width: 100%;
+        }
+
+        .grup6 {
+            float: left;
+            width: 100%;
+        }
+
+        .titulosecc {
+            color: #FFF;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .documental {
+            height: 300px;
+            width: 175px;
+            margin: 10px;
+            float: left;
+        }
+
+        .documental:hover{
+            opacity: 50%;
+        }
+
+        .imagen {
+            height: 260px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .titulopeli {
+            height: 20px;
+            width: 100%;
+            font-size: 14px;
+            color: #CCC;
+        }
+
+        .fechapeli {
+            height: 20px;
+            width: 50%;
+            float: left;
+            font-size: 11px;
+            color: #CCC;
+        }
+
+        .estilo {
+            height: 20px;
+            width: 50%;
+            float: left;
+            font-size: 11px;
+            text-align: right;
+            color: #CCC;
+        }
+
+        .primera {background-image: url(../img/1982Koyaanisqatsi.jpg);}
+        .segunda {background-image: url(../img/2004YTuQueSabes.jpg);}
+        .tercera {background-image: url(../img/2005Earthlings.jpg);}
+        .cuarta {background-image: url(../img/2007Helvetica.jpg);}
+        .quinta {background-image: url(../img/2007Sicko.jpg);}
+        .sexta {background-image: url(../img/2008Zeitgeist2.jpg);}
+        .septima {background-image: url(../img/2009ArtAndCopy.jpg);}
+        .octava {background-image: url(../img/2009Home.jpg);}
+        .novena {background-image: url(../img/2009RipARemixManifesto.jpg);}
+        .decima {background-image: url(../img/2010ComprarTirarComprar.jpg);}
+        .onceava {background-image: url(../img/2010InsideJob.jpg);}
+
+        .decimoseguna {background-image: url(../img/2011LaDoctrinaDeShock.jpg); filter: grayscale(100%);}
+        .decimotercera {background-image: url(../img/2012SearchingForSugarMan.jpg); filter: grayscale(100%);}
+        .decimocuarta {background-image: url(../img/2012TheActOfKilling.jpg); filter: grayscale(100%);}
+        .decimoquinta {background-image: url(../img/2013ElEspirituDel45.jpg); filter: grayscale(100%);}
+
+        .decimosexta {background-image: url(../img/XXXXpeli.jpg);}
+        .decimoseptima {background-image: url(../img/XXXXpeli.jpg);}
+
+        .decimoctava {background: grey;}
+        .decimonovena {background: grey;}
+
+        .vigesimo {background-image: url(../img/XXXXserie.jpg);}
+        .vigesimoprimera {background-image: url(../img/XXXXserie.jpg);}
+
+        .vigesimosegunda{background: lightgray;}
+        .vigesimotercera{background: lightgray;}

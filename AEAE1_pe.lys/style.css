@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: helvetica, sans-serif;
+}
+
+.producte:hover{
+    opacity: 50%;
+}
+
+h1 {
+    color: white;
+
+}
+
+li {
+    margin: 2px 0;
+    display: inline-block;
+
+}
+
+ul {
+    overflow: hidden;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.encabezado {
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+        .logo {
+    width: 38px;
+    height: 40px;
+    float: left;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin: 5px 20px;
+}
+        .buscador {
+    float: left;
+    color: white;
+    margin: 0px 70px;
+    text-decoration: none;
+}
+        .redes {
+            float: right;
+            margin-right: 30px;
+            
+        }
+.c1{
+    width: 100%;
+    height: 1100px;
+    background: #222;
+    margin-top: -22px;
+}
+        .t1 {
+            position: relative;
+            left: -375px;
+            top: 10px;
+            font-size: 24px;
+        }
+        .documentals {
+    width: 100%;
+    margin: 20px;
+    font-size: 24px;
+    text-align: left;
+
+        }
+
+.producte {
+    width: 175px;
+    height: 296px;
+    margin: 20px;
+    
+    float: left;
+}
+
+        .imagen {
+            width: 175px;
+            height: 260px;
+            float: left;
+        }
+
+        .titulo2 {
+            width: 175px;
+            height: 22px;
+            color: #CCC;
+            margin-top: 5px;
+            padding-bottom: 5px;
+            float: left;
+        }
+
+        .data {
+            width: 85px;
+            height: 10px;
+            color: #CCC;
+            text-align: left;
+            font-size: 11px;
+        }
+
+        .documental {
+            text-align: right;
+            font-size: 14px;
+            color: #CCC;
+        }
+
+                .koya{
+                    background-image: url(img/1982Koyaanisqatsi.jpg);
+                }
+
+                .ytuquesabes{
+                    background-image: url(img/2004YTuQueSabes.jpg)
+                }
+
+                .earth{
+                    background-image: url(img/2005Earthlings.jpg)
+                }
+
+                .helvetica{
+                    background-image: url(img/2007Helvetica.jpg)
+                }
+
+                .sicko{
+                    background-image: url(img/2007Sicko.jpg)
+                }
+
+                .zeltgeist{
+                    background-image: url(img/2008Zeitgeist2.jpg)
+                }
+
+                .artcopy{
+                    background-image: url(img/2009ArtAndCopy.jpg)
+                }
+
+                .home{
+                    background-image: url(img/2009Home.jpg)
+                }
+
+                .rip{
+                    background-image: url(img/2009RipARemixManifesto.jpg)
+                }
+
+                .ctc{
+                    background-image: url(img/2010ComprarTirarComprar.jpg)
+                }
+
+                .insidejob{
+                    background-image: url(img/2010InsideJob.jpg)
+                }
+
+        .c2 {
+            width: 100%;
+            height: 500px;
+            background: #222;
+            float: left;
+        }
+
+                .doctrina{
+                    background-image: url(img/2011LaDoctrinaDeShock.jpg);
+                }
+
+                .sugarman{
+                    background-image: url(img/2012SearchingForSugarMan.jpg);
+                }
+
+                .killing{
+                    background-image: url(img/2012TheActOfKilling.jpg);
+                }
+
+                .espiritu{
+                    background-image: url(img/2013ElEspirituDel45.jpg);
+                }
+
+
+        
+        .c3 {
+            width: 100%;
+            height: 500px;
+            background: #222;
+            float: left;
+        }
+
+                .peli1 {
+                    background-color: red;
+                }
+
+                .peli2 {
+                    background-color: red;
+                }
+
+
