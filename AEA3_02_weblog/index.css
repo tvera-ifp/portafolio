@@ -68,3 +68,168 @@ p {
 .dreta {
     background-color: green;  
 }
+
+/* Codi del menu hamburguesa */
+
+#alternador {
+  width: 5rem;
+  height: 5rem;
+
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#alternador label {
+  width: 5rem;
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding-top: 1rem;
+  transition: all .5s ease;
+  opactiy: 1;
+  
+  
+}
+
+#alternador a {
+color: antiquewhite;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+#alternador b {
+  display: block;
+  width: 4rem;
+  height: 0.5rem;
+  background: black;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+
+
+#alternador input[type="checkbox"] {
+  visibility: hidden;
+}
+
+* {
+  font-family: Arial, Sans-serif;
+}
+
+#alternador ul {
+  margin-top: 3rem;
+  padding: 0;
+  width: 10rem;
+  background: darkmagenta;
+  overflow: hidden;
+  border:1px solid darkmagenta;
+  border-radius: 10%;
+}
+
+#alternador li {
+  width: 10rem;
+  line-height: 3rem;
+  background: rgb(204, 152, 240);
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  border-bottom: 0.5px solid darkviolet;
+  position: relative;
+  z-index: 200;
+  height: 3rem;
+  float: none;
+  border-radius: 10%;
+}
+
+#alternador li:hover:before {
+  content:"";
+  display: block;
+  width: 10rem;
+  line-height: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1000;
+  top:0;
+  left:0;
+  box-shadow: inset 0 -5px 8px -4px black;
+}
+
+#alternador li:hover {
+  box-shadow: inset 0 5px 8px -4px black;
+  top:1px;
+  left:1px;
+  z-index: 500;
+  background: rgb(166, 0, 166);
+}
+#alternador .desplega {
+  position: absolute;
+  left: -12rem;
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+#alternador h1 {
+  text-align: center;
+}
+
+#alternador input[type=checkbox]:checked+label {
+  opacity:1;
+}
+
+#alternador input[type=checkbox]:checked+label~.desplega {
+  left: 0;
+}
+
+
+
+
+
+
+
+/* Elements responsius */
+
+
+@media (max-width:480px) 
+
+    {
+      #alternador {
+          display: block;
+      }
+
+      .menuhoritzontal {
+          display: none;
+      }
+    }
+
+
+@media (min-width:481px) and (max-width:1279px)
+
+    {
+      #alternador {
+          display: block;
+      }
+
+      .menuhoritzontal {
+          display: none;
+      }
+    }
+
+@media (min-width:1280px)
+
+    {
+      #alternador {
+          display: none;
+      }
+
+      .menuhoritzontal {
+          display: block;
+      }
+    }
