@@ -21,9 +21,7 @@ body {
 
 }
 
-
-
-
+.contenedor {}
 
 
 
@@ -113,6 +111,42 @@ body {
     color: rgb(166, 166, 166);
 }
 
+h1 {
+    color: #e5e7eb;
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    padding-top: 12rem;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h3 {
+    color: #e5e7eb;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+     font-family: sans-serif;
+     font-style: normal;
+     font-size: 1rem;
+     padding-top: 1rem;
+}
+
+.jstitol {
+    padding-top: 10rem;
+}
             .portfolio {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -157,8 +191,8 @@ body {
 
             /* Icono */
             .portfolio-item .icon {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -193,7 +227,6 @@ body {
             .portfolio-item:active {
             transform: translateY(-3px) scale(0.98);
             }
-
 
 
 .menu {
@@ -281,19 +314,19 @@ h2 {
 }
 
         .ae {
-            background-image: url(../img/icono_ae.png);
+            background-image: url(../img/icono\ ae.png);
             background-repeat: no-repeat;
             background-size: 100%;
         }
         
         .ai {
-            background-image: url(../img/icono_ai.png);
+            background-image: url(../img/icono\ ai.png);
             background-repeat: no-repeat;
             background-size: 100%;
         }
 
         .ps {
-            background-image: url(../img/icono_ps.png);
+            background-image: url(../img/icono\ ps.png);
             background-repeat: no-repeat;
             background-size: 100%;
         }
@@ -430,7 +463,7 @@ ul {
 
         .portfolio {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 3fr;
         gap: 2rem;
         width: 70%;
         
